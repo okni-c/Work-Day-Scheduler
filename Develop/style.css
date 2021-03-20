@@ -30,10 +30,17 @@ textarea{
   border-radius: 15px;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .row {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .hour {
