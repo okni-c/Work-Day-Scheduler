@@ -60,7 +60,7 @@ function timeChecker() {
         //set current value of index of array to var
         var content = timeArr[i].textContent.slice(0, -2);
         console.log(content);
-        var timeID = "#" + timeArr[i].id;
+        var timeID = "#" + elementArr[i].id;
         //if time is earlier than current time, then change class
         if (content < currentTime) {
             $(timeID).removeClass("present", "future").addClass("past");
